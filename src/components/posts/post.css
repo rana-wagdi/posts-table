@@ -1,0 +1,24 @@
+/* .ant-table-thead tr th{
+background-color: #9af5ae !important;} */
+.ant-table-tbody tr:nth-child(odd){
+background-color: #e9fa7d;
+}
+.cursor-pointer{
+margin-right: .7rem;
+}
+.table_items{
+margin: 2rem;
+}
+.ant-modal-body{
+padding: 2rem;}
+.add_button{
+    margin: 2rem 2rem 0 2rem;
+    float: right;
+}
+@media (max-width:900px) {
+    .table_items{
+        overflow-x:scroll;}
+}
+/* .ant-table-tbody tr:nth-child(odd):hover{
+    background-color: red;
+    } */
