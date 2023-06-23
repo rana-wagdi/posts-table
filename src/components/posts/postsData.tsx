@@ -112,7 +112,7 @@ const PostData = () => {
       width: "12%",
       render: (data: any) => {
         return (
-          <div className="">
+          <>
             <EditOutlined
               onClick={() => showChangeModal(true, data)}
               className="cursor-pointer"
@@ -123,7 +123,7 @@ const PostData = () => {
               className="cursor-pointer"
               style={{ color: "red" }}
             />
-          </div>
+          </>
         );
       },
     },
@@ -188,10 +188,10 @@ const PostData = () => {
           </Button>,
         ]}
       >
-        <div className="text-center">
+        <div>
           <CloseCircleOutlined style={{ color: "red", fontSize: "65px" }} />
         </div>
-        <p className="text-center mt-3">
+        <p>
           Are you sure you want to delete this item .!?
         </p>
       </Modal>
